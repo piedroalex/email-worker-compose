@@ -1,8 +1,20 @@
-# 
-Projeto para envio de e-mails com workers.
 # Projeto: email-worker-compose
 
-Esse é o projeto final desenvolvido no curso [Docker: Ferramenta essencial para Desenvolvedores](https://www.udemy.com/course/curso-docker/) da plataforma de cursos online Udemy.
+Desenvolvido no curso [Docker: Ferramenta essencial para Desenvolvedores](https://www.udemy.com/course/curso-docker/) da Udemy.
+
+## Descrição
+Projeto para envio de e-mails com workers.
+
+## Pré-Requisitos
+
+- [x] [Docker](https://www.docker.com/)
+
+## Como rodar a aplicação
+
+1. Clone o repositório para sua máquina
+2. Abra um terminal e navegue até o repositório
+3. Execute o comando: ```docker-compose up -d --scale worker=3```
+4. Abra o navegador e digite [localhost](http://localhost)
 
 ## Etapas
 
@@ -18,17 +30,6 @@ Cada commit representa uma etapa do projeto que foi concluida. Abaixo temos a or
 - Escalar é preciso...;
 - Twelve factors;
 - Sobrescrevendo localmente;
-
-## Como Executar
-
-1. Clone o repositório para sua máquina;
-2. Abra um terminal e navegue até o repositório;
-3. Execute o comando: ```docker-compose up -d --scale worker=3```
-4. Abra o navegador e digite [localhost](http://localhost) ;
-
-## Observações
-
-- É necessário ter o [Docker](https://www.docker.com/) instalado na sua máquina.
 
 ## Comandos Por Aula
 
